@@ -70,7 +70,7 @@ app.use(koaBody({
 }))
 app.use(mount('/file',KoaStatic(STORAGE)))
 app.use(mount('/api', apiRouter.middleware()))
-app.listen('8889',(err,arg)=>{node
+app.listen('8889',(err,arg)=>{
     if(err) throw err
     console.log('启动服务........8889')
 })
