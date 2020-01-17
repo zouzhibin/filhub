@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<body>
+    {% if data.length > 0 %}
+        {% for item in data %}
+        <div>
+            <a href="/file/{{item.name}}" download="{{item.name}}">{{item.name}}</a>
+            <span>{{item.time}}</span>
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    <button id="btn">上传</button>
+</body>
+<script>
+let btn = document.getElementById('btn')
+btn.onclick = function () {
+
+}
+
+</script>
+</html>
