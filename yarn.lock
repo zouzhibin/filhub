@@ -2692,9 +2692,9 @@ supports-color@^5.3.0, supports-color@^5.5.0:
     has-flag "^3.0.0"
 
 systeminformation@^4.14.16:
-  version "4.19.1"
-  resolved "https://registry.npm.taobao.org/systeminformation/download/systeminformation-4.19.1.tgz#2f43204152feaf55d8692b61b855f16287817115"
-  integrity sha1-L0MgQVL+r1XYaSthuFXxYoeBcRU=
+  version "4.30.6"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.30.6.tgz#b56074968f2ea28ac118f23221c449b0f763db22"
+  integrity sha512-NV7zo9NU7fWSuiCORZmMLe90cFrrTS6jfalrQ0/5B7JGQ2ei15c2gmfICBwWdmviyv/FXAFVReySxOtDDkppqw==
 
 term-size@^1.2.0:
   version "1.2.0"
